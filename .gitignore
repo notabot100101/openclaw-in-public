@@ -1,0 +1,15 @@
+# Belt-and-suspenders: even though content is clean-room, never let these in.
+*.env
+*.pem
+*.key
+secrets*
+*secret*.json
+*credentials*
+*.log
+__pycache__/
+
+# Internal tooling/governance — contains the denylist / sensitive terms. NEVER publish.
+publish_scan.py
+PUBLISHING-POLICY.md
+SHORTLIST.md
+PUBLISHING-CHECKLIST.md
